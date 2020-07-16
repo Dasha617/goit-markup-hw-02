@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!---Шапка сайта-->
     <header>
         <nav> 
-            <a href="/">Web Studio</a>
+            <a class="logo" ref="/"><span class="span">Web</span>Studio</a>
         
-        <ul>
+        <ul class="site-nav list " >
             <li><a href="">Студия</a> </li>
-            <li><a href="">Портфолио</a></li>
-            <li><a href="">Портфолио</a></li>  
+            <li><a href="./portfolio.html">Портфолио</a></li>
+            <li><a href="">Контакты</a></li>  
         </ul>
-        <ul>
-            <li><a href="">info@devstudio.com</a></li>
-            <li><a href="">+38 096 111 11 11</a></li>
+        <ul class="list" >
+            <li><a class="mail" href="">info@devstudio.com</a></li>
+            <li><a class="phone" href="">+38 096 111 11 11</a></li>
 
         </ul>
         </nav>
@@ -29,64 +30,64 @@
     <!--Голова-->
 
     <section>
-    <h1>Эффективные решения <br/> для вашего бизнеса</h1>
+    <h1 class="heading" >Эффективные решения <br/> для вашего бизнеса</h1>
     <button>Заказать услугу</button>
     </section>
 
     <!--Преимущества-->
 
-    <ul>
+    <ul class="list">
         <li>
             <img src="./img/Vector.png" alt="" />
-            <h3>Внимание к деталям</h3>
-            <b>Идейные соображения, а также начало повседневной работы по формированию позиции.</b>
+            <h3 class="subtitle">Внимание к деталям</h3>
+            <b class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</b>
         </li>
         <li> 
             <img src="./img/Vector(1).png" alt="" />
-            <h3>Пунктуальность</h3>
-            <b>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</b>
+            <h3 class="subtitle">Пунктуальность</h3>
+            <b class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</b>
         </li>
         <li>
             <img src="./img/Vector(2).png" alt="" />
-            <h3>Планирование</h3>
-            <b>Равным образом консультация с широким активом в значительной степени обуславливает.</b>
+            <h3 class="subtitle">Планирование</h3>
+            <b class="text"> Равным образом консультация с широким активом в значительной степени обуславливает.</b>
         </li>
         <li>
             <img src="./img/Vector(3).png" alt="" />
-            <h3>Современные технологии</h3>
-            <b>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</b>
+            <h3 class="subtitle">Современные технологии</h3>
+            <b class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</b>
         </li>
     </ul>
 
     <!--Примеры рыботы-->
 
-    <h2>Чем мы занимаемся</h2>
+    <h2 class="subject">Чем мы занимаемся</h2>
 
     <ul>
         <li>
             <img src="./img/img(2).png" />
-            <p>Десктопные приложения</p>
+            <p class="subtitle">Десктопные приложения</p>
         </li>
         <li>
             <img src="./img/box.png" alt="" /> 
-            <p>Мобильные приложения</p>
+            <p class="subtitle">Мобильные приложения</p>
         </li>
         <li>
             <img src="./img/img(2).png" alt="" />
-            <p>Дизайнерские решения</p>
+            <p class="subtitle">Дизайнерские решения</p>
         </li>
     </ul>
 
     <!--Колектив-->
     <section>
 
-    <h2>Наша команда</h2>
+    <h2 class="subject">Наша команда</h2>
 
     <ul>
         <li>
             <img src="./img/img.jpg" width="270" alt="Лицо компании"/>
-            <h3>Николай Кучеренко</h3>
-            <p>Product Designer</p>
+            <h3 class="clients">Николай Кучеренко</h3>
+            <p class="clients-title">Product Designer</p>
             <li> <a href=""><img src="./img/Ellipse.png" alt="instagram"/></a>
             </li>
             <li> <a href=""><img src="./img/Ellipse(1).png" alt="twitter"/></a>
@@ -98,8 +99,8 @@
         </li>
         <li>
             <img src="./img/img(1).jpg" width="270" alt="Лицо компании"/>
-            <h3>Ольга Иванова</h3>
-            <p>Frontend Developer</p>
+            <h3 class="clients" >Ольга Иванова</h3>
+            <p class="clients-title" >Frontend Developer</p>
             <li> <a href=""><img src="./img/Ellipse.png" alt="instagram"/></a>
             </li>
             <li> <a href=""><img src="./img/Ellipse(1).png" alt="twitter"/></a>
@@ -112,8 +113,8 @@
         </li>
         <li>
             <img src="./img/img(2).jpg" width="270" alt="Лицо компании"/>
-            <h3>Андрей Шевченко</h3>
-            <p>Marketing</p>
+            <h3 class="clients" >Андрей Шевченко</h3>
+            <p class="clients-title" >Marketing</p>
             <li> <a href=""><img src="./img/Ellipse.png" alt="instagram"/></a>
             </li>
             <li> <a href=""><img src="./img/Ellipse(1).png" alt="twitter"/></a>
@@ -125,8 +126,8 @@
         </li>
         <li>
             <img src="./img/img(3).jpg" width="270" alt="Лицо компании"/>
-            <h3>Иван Николаев</h3>
-            <p>UI Designer</p>
+            <h3 class="clients" >Иван Николаев</h3>
+            <p class="clients-title" >UI Designer</p>
             <li> <a href=""><img src="./img/Ellipse.png" alt="instagram"/></a>
             </li>
             <li> <a href=""><img src="./img/Ellipse(1).png" alt="twitter"/></a>
@@ -144,7 +145,7 @@
 
     <!--Клиенты-->
 
-       <h2>Постоянные клиенты</h2>
+       <h2 class="subject">Постоянные клиенты</h2>
        <ul>
            <li>
             <img src="./img/Client 1.png" alt="YA & CO" />
@@ -172,18 +173,19 @@
 
 <!--Футер-->
 
-<footer>
-<a href="/">Web Studio</a> 
+<footer class="contact">
+<a class="logo-footer" href="/"> <span class="span" >Web</span>Studio</a> 
 
-<address>г. Киев, пр-т Леси Украинки, 26</address>
 
-<ul>
-    <li><a href="">info@devstudio.com</a></li>
-    <li><a href="">+38 096 111 11 11</a></li>
+
+<ul class="list">
+    <li><address class="address">г. Киев, пр-т Леси Украинки, 26</address></li>
+    <li><a class="aside" href="">info@devstudio.com</a></li>
+    <li><a class="aside" href="">+38 096 111 11 11</a></li>
 </ul>
 
- <h3>присоединяйтесь</h3>
- <ul>
+ <h3 class="address" >присоединяйтесь</h3>
+ <ul class="list">
     <li> <a href=""><img src="./img/Ellipse.png" alt="instagram"/></a>
     </li>
     <li> <a href=""><img src="./img/Ellipse(1).png" alt="twitter"/></a>
